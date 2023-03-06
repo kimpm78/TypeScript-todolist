@@ -6,7 +6,6 @@ type TodosContextObj = {
   items: Todo[];
   addTodo: (text: string) => void;
   removeTodo: (id: string) => void;
-  children: React.ReactNode;
 };
 
 export const TodosContext = React.createContext<TodosContextObj>({
